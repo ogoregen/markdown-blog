@@ -10,7 +10,7 @@ const Home = () => {
                 title="planets"
                 width={'100%'}
                 height={'100%'}
-                style={{borderStyle: "none", position: "fixed", overflow: 'hidden', zIndex: -1}}
+                style={{borderStyle: "none", position: "fixed", overflow: 'hidden', zIndex: 0}}
             />
             <PageTemplate/>
         </>
