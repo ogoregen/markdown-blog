@@ -20,7 +20,7 @@ export const projects = [
     {
         name: "Sturdy",
         date: "2021",
-        description: "MVC PHP web application framework inspired by Django",
+        description: "PHP MVC web framework",
         slug: "sturdy",
         links: {
            "Source Codes": "https://github.com/ogoregen/sturdy",
@@ -29,7 +29,7 @@ export const projects = [
     {
         name: "Fly Graphics",
         date: "2020",
-        description: "Object Oriented C++ Wrapper for OpenGL inspired by Processing",
+        description: "C++ Wrapper for OpenGL",
         slug: "fly-graphics",
         links: {
            "Source Codes": "https://github.com/ogoregen/fly-graphics",
@@ -38,7 +38,7 @@ export const projects = [
     {
         name: "Android OpenGL Basis",
         date: "2020",
-        description: "Android OpenGL ES Application Boilerplate",
+        description: "OpenGL Boilerplate for Android Studio",
         slug: "android-opengl-basis",
         links: {
            "Source Codes": "https://github.com/ogoregen/android-opengl-basis",
