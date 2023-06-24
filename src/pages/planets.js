@@ -1,10 +1,12 @@
 
 import * as React from "react";
 import {withPrefix} from "gatsby";
+import '../style/iframestyle.css';
 
 const Planets = () => {
 
     return(
+
         <>
         </>
     );
