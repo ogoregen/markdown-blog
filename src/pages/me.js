@@ -3,7 +3,7 @@ import * as React from "react"
 import PageTemplate from "../components/pagetemplate"
 import {StaticImage} from "gatsby-plugin-image"
 
-const Home = ({data}) => {
+const Home = () => {
 
     return(
         <PageTemplate title="About">
