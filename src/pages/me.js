@@ -11,7 +11,7 @@ const Home = () => {
             <h2>Birb</h2>
             <p>Here's my late cockatiel friend Birb. He always sung and loved a branch of millet. He would accompany me on the computer and rest under the monitor. He was with me in a time I never wish to forget.</p>
             <div style={{display: 'flex', 'justifyContent': 'space-around'}}>
-                <StaticImage src='../images/birb.jpg' style={{width: '50%'}}/>
+                <StaticImage src='../images/birb.jpg' class='fly-1-2-desktop'/>
             </div>
         </PageTemplate>
     )

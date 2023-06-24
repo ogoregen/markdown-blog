@@ -321,12 +321,22 @@ pre{
     position: relative;
 }
 
+.fly-1-2-desktop{
+
+    width: 50%;
+}
+
 @media screen and (max-width: 80rem) {
 
     .fly-header{
 
         flex-direction: column;
         align-items: center;
+    }
+
+    .fly-1-2-desktop{
+
+        width: 100%;
     }
 }
 
