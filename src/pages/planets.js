@@ -1,7 +1,7 @@
 
 import * as React from "react";
 import {withPrefix} from "gatsby";
-import '../style/iframestyle.css';
+import '../style/style.css';
 
 const Planets = () => {
 
