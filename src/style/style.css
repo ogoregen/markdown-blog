@@ -17,6 +17,10 @@
     line-height: 1.5;
 }
 
+iframe body{
+    overflow: hidden;
+}
+
 html, body{
     margin: 0;
 }
