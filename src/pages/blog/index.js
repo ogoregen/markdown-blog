@@ -5,7 +5,7 @@ import PageTemplate from "../../components/pagetemplate"
 
 export const query = graphql`
     query{
-        allMdx(sort: {frontmatter: { date: DESC }}){
+        allMarkdownRemark(sort: {frontmatter: { date: DESC }}){
             nodes {
                 frontmatter{
                     title
@@ -24,7 +24,7 @@ const Blog = ({data}) => {
     return(
         <PageTemplate title="Blog">
             {
-                data.allMdx.nodes.map(node => (
+                data.allMarkdownRemark.nodes.map(node => (
                     <div className="fly-flex fly-flex-space-between fly-margin-bottom" key={node.id}>
                         <div>
                             <Link to={`/blog/${node.frontmatter.slug}`} className="fly-text-lead">{node.frontmatter.title}</Link>
