@@ -5,6 +5,7 @@
 
 :root{
     font-family: 'Inter', sans-serif;
+    --primary-color: cadetblue;
 }
 
 @supports(font-variation-settings: normal){
@@ -33,7 +34,7 @@ html, body{
 
 a{
     text-decoration: none;
-    color: cadetblue;
+    color: var(--primary-color);
 }
     
 a:hover{
@@ -49,7 +50,7 @@ h1{
 
 .fly-title{
     text-decoration: none;
-    color: cadetblue;
+    color: var(--primary-color);
     font-size: 2rem;
     font-weight: 900;
 }
@@ -59,7 +60,7 @@ h1{
 }
 
 .fly-text-muted{
-    color: darkgray;
+    color: gray;
 }
 
 .fly-text-center{
@@ -77,7 +78,7 @@ h1{
 }
     
 .fly-link-text:hover{
-    color: cadetblue;
+    color: var(--primary-color);
     text-decoration: none;
 }
 
@@ -288,7 +289,7 @@ ul.fly-nav li a{
 }
 
 ul.fly-nav li a:hover{
-    color: cadetblue;
+    color: var(--primary-color);
 }
 
 /* card */
@@ -309,7 +310,7 @@ pre{
 
 
 .fly-nav-active{
-    color: cadetblue !important;
+    color: var(--primary-color) !important;
 }
 
 
