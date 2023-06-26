@@ -6,7 +6,6 @@ module.exports = {
     siteMetadata: {
 
         title: "flighty",
-        description: "Example project for the Gatsby Head API",
         siteUrl: "https://ogoregen.com",
     },
 
