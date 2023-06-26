@@ -313,12 +313,12 @@ pre{
 code{
     font-size: 1rem !important;
     border-radius: 0 !important;
-    line-height: inherit !important;
+    line-height: 1.25 !important;
 }
 
 code *{
     font-size: 1rem !important;
-    line-height: inherit !important;
+    line-height: 1.25 !important;
 }
 
 .fly-nav-active{
