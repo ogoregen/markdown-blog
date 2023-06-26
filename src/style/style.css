@@ -302,7 +302,7 @@ ul.fly-nav li a:hover{
 /* code and pre*/
 
 pre{
-    background-color: whitesmoke;
+    background-color: whitesmoke !important;
     padding: 1rem;
     overflow: auto;
     scrollbar-width: thin;

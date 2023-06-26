@@ -10,23 +10,14 @@ module.exports = {
     },
 
     plugins: [
+
         "gatsby-plugin-image",
         "gatsby-plugin-sharp",
-        `gatsby-transformer-sharp`, // Needed for dynamic images
-        {
-            resolve: "gatsby-plugin-mdx",
-            options: {
-                gatsbyRemarkPlugins: [{
-                    resolve: `gatsby-remark-images`,
-                    options: {
-                        maxWidth: 1200,
-                    },
-                },],
-            },
-        },
+        `gatsby-transformer-sharp`,
         {
             resolve: "gatsby-source-filesystem",
             options: {
+
                 name: "blog_posts",
                 path: `${__dirname}/blog_posts`,
             },
@@ -34,7 +25,9 @@ module.exports = {
         {
             resolve: "gatsby-plugin-preconnect",
             options: {
+
                 domains: [
+
                     {domain: "https://rsms.me/", crossOrigin: false},
                 ],
             },
@@ -42,7 +35,29 @@ module.exports = {
         {
             resolve: `gatsby-plugin-manifest`,
             options: {
-              icon: `src/images/icon.png`, // This path is relative to the root of the site.
+
+                icon: `src/images/icon.png`,
+            },
+        },
+        {
+            resolve: `gatsby-transformer-remark`,
+            options: {
+
+                plugins: [
+                    {
+                        resolve: `gatsby-remark-images`,
+                        options: {
+
+                            maxWidth: 1200,
+                        },
+                    },
+                    {
+                        resolve: `gatsby-remark-prismjs`,
+                        options: {
+                            classPrefix: "language-",
+                        },
+                    },
+                ],
             },
         },
     ]
