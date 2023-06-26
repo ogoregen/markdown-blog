@@ -306,8 +306,18 @@ pre{
     padding: 1rem;
     overflow: auto;
     scrollbar-width: thin;
+    line-height: 1.25 !important;
 }
 
+code{
+    border-radius: 0 !important;
+    line-height: inherit !important;
+}
+
+code *{
+    font-size: inherit !important;
+    line-height: inherit !important;
+}
 
 .fly-nav-active{
     color: var(--primary-color) !important;
