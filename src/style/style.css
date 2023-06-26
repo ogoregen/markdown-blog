@@ -307,9 +307,11 @@ pre{
     overflow: auto;
     scrollbar-width: thin;
     line-height: 1.25 !important;
+    font-size: inherit !important;
 }
 
 code{
+    font-size: inherit !important;
     border-radius: 0 !important;
     line-height: inherit !important;
 }
