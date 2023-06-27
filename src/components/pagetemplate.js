@@ -1,5 +1,5 @@
 
-import * as React from "react";
+import React from "react";
 import Header from "./header";
 import Footer from "./footer";
 import "../style/style.css";
