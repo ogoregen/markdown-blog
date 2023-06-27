@@ -311,17 +311,14 @@ pre{
     overflow: auto;
     scrollbar-width: thin;
     line-height: 1.25 !important;
-    font-size: 1rem !important;
 }
 
 code{
-    font-size: 1rem !important;
     border-radius: 0 !important;
     line-height: 1.25 !important;
 }
 
 code *{
-    font-size: 1rem !important;
     line-height: 1.25 !important;
 }
 
