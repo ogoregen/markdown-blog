@@ -316,6 +316,7 @@ pre{
 code{
     border-radius: 0 !important;
     line-height: 1.25 !important;
+    font-size: 1rem !important;
 }
 
 code *{
