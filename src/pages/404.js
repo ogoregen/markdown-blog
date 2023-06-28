@@ -7,7 +7,7 @@ const Home = () => {
     return (
 	
 		<PageTemplate title="Not found.">
-			<p>That's a 404.</p>
+			<p className="fly-text-center">That's a 404.</p>
 		</PageTemplate>	
 	);
 };
