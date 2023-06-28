@@ -3,14 +3,14 @@ import React from "react";
 
 const Footer = () => {
 
-    return(
+	var year = new Date().getFullYear();
 
-        <footer className="fly-flex fly-flex-space-around fly-margin-horizontal-auto fly-margin-bottom fly-width-1-1 fly-footer">
-            <div>
-                <span>&copy; {new Date().getFullYear()} flighty</span>
-            </div>
-        </footer>
-    );
+	return(
+
+		<footer className="fly-footer fly-text-center">
+			<span>&copy; {year} flighty</span>
+		</footer>
+	);
 };
 
 export default Footer;

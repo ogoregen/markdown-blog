@@ -4,14 +4,6 @@
  */
 module.exports = {
 
-    siteMetadata: {
-
-        title: "flighty",
-        description: ``,
-        image: `/gatsby-icon.png`,
-        siteUrl: "https://ogoregen.com",
-    },
-
     plugins: [
 
         "gatsby-plugin-image",

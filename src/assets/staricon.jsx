@@ -1,12 +1,11 @@
 
 import React from "react";
 
-export const StarIcon = ({color}) => {
+const StarIcon = ({color}) => {
 
 	return (
 
 		<svg
-			xmlns="http://www.w3.org/2000/svg"
 			viewBox="0 0 16 16"
 			style={
 				{
@@ -23,3 +22,5 @@ export const StarIcon = ({color}) => {
 		</svg>
 	);
 };
+
+export default StarIcon;

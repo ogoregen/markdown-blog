@@ -38,6 +38,12 @@ const Blog = ({data}) => {
     )
 }
 
-export default Blog
+export default Blog;
 
-export const Head = () => <title>flighty's blog</title>
+export const Head = () => (
+    
+	<Metadata
+		title="flighty's blog"
+		description="Tutorials about computer science and other miscellaneous writing"
+	/>
+);

@@ -35,6 +35,12 @@ const BlogPost = ({data, children}) => {
     )
 }
 
-export default BlogPost
+export default BlogPost;
 
-export const Head = ({data}) => <title>{data.markdownRemark.frontmatter.title}</title>
+export const Head = ({data}) => (
+
+    <Metadata
+        title={data.markdownRemark.frontmatter.title}
+        description={data.markdownRemark.excerpt}
+    />
+);

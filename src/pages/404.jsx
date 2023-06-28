@@ -14,4 +14,7 @@ const Home = () => {
 
 export default Home;
 
-export const Head = () => <title>not here</title>;
+export const Head = () => (
+
+	<Metadata title="not here"/>
+);
