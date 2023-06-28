@@ -3,6 +3,7 @@ import React, {useState, useEffect} from 'react'
 import Layout from "../components/layout"
 import {projects} from '../data/projects'
 import {StarIcon} from '../assets/staricon'
+import Metadata from "../components/metadata";
 
 const Projects = () => {
 

@@ -2,6 +2,7 @@
 import * as React from "react";
 import {withPrefix} from "gatsby";
 import "../style/style.css";
+import Metadata from "../components/metadata";
 
 const Planets = () => {
 
