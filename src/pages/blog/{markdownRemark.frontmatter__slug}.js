@@ -1,7 +1,7 @@
 
 import * as React from "react"
 import {graphql} from "gatsby"
-import PageTemplate from "../../components/pagetemplate"
+import Layout from "../../components/layout"
 import Comments from "../../components/comments"
 
 export const query = graphql`
@@ -24,14 +24,14 @@ const BlogPost = ({data, children}) => {
 
     return(
 
-        <PageTemplate title={post.frontmatter.title} subtitle={post.frontmatter.date}>
+        <Layout title={post.frontmatter.title} subtitle={post.frontmatter.date}>
             <article
                 dangerouslySetInnerHTML={{ __html: post.html }}
             >
                 {children}
             </article>
             <Comments/>
-        </PageTemplate>
+        </Layout>
     )
 }
 

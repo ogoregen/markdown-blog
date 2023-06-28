@@ -1,3 +1,4 @@
+
 /**
  * @type {import('gatsby').GatsbyConfig}
  */
@@ -6,6 +7,8 @@ module.exports = {
     siteMetadata: {
 
         title: "flighty",
+        description: ``,
+        image: `/gatsby-icon.png`,
         siteUrl: "https://ogoregen.com",
     },
 
@@ -61,4 +64,4 @@ module.exports = {
             },
         },
     ]
-}
+};
