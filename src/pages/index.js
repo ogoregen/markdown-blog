@@ -1,6 +1,6 @@
 
 import * as React from "react"
-import PageTemplate from "../components/pagetemplate"
+import Layout from "../components/layout"
 
 const Home = () => {
 
@@ -12,7 +12,7 @@ const Home = () => {
                 height={'100%'}
                 style={{borderStyle: "none", position: "fixed", overflow: 'hidden', zIndex: 0}}
             />
-            <PageTemplate/>
+            <Layout/>
         </>
     )
 }

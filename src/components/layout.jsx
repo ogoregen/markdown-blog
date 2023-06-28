@@ -4,7 +4,7 @@ import Header from "./header";
 import Footer from "./footer";
 import "../style/style.css";
 
-const PageTemplate = ({title, subtitle, children}) => {
+const Layout = ({title, subtitle, children}) => {
 
     return(
 
@@ -28,4 +28,4 @@ const PageTemplate = ({title, subtitle, children}) => {
     );
 };
 
-export default PageTemplate;
+export default Layout;

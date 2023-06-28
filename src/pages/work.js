@@ -1,6 +1,6 @@
 
 import React, {useState, useEffect} from 'react'
-import PageTemplate from "../components/pagetemplate"
+import Layout from "../components/layout"
 import {projects} from '../data/projects'
 import {StarIcon} from '../assets/staricon'
 
@@ -22,7 +22,7 @@ const Projects = () => {
     }, [])
 
     return(
-        <PageTemplate title="Projects">
+        <Layout title="Projects">
             <div className="fly-grid fly-grid-2">
                 {
                     projects.map((project) => {
@@ -63,7 +63,7 @@ const Projects = () => {
                     })
                 }
             </div>
-        </PageTemplate>
+        </Layout>
     )
 }
 
