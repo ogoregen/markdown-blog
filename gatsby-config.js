@@ -31,24 +31,25 @@ module.exports = {
             resolve: `gatsby-plugin-manifest`,
             options: {
 
-                icon: `src/images/icon.png`,
+                icon: "src/images/icon.png",
             },
         },
         {
-            resolve: `gatsby-transformer-remark`,
+            resolve: "gatsby-transformer-remark",
             options: {
 
                 plugins: [
                     {
-                        resolve: `gatsby-remark-images`,
+                        resolve: "gatsby-remark-images",
                         options: {
 
                             maxWidth: 1200,
                         },
                     },
                     {
-                        resolve: `gatsby-remark-prismjs`,
+                        resolve: "gatsby-remark-prismjs",
                         options: {
+
                             classPrefix: "language-",
                         },
                     },

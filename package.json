@@ -1,34 +1,36 @@
+
 {
-  "name": "ogoregen",
-  "version": "1.0.0",
-  "private": true,
-  "description": "ogoregen",
-  "author": "flighty",
-  "keywords": [
-    "gatsby"
-  ],
-  "scripts": {
-    "develop": "gatsby develop",
-    "start": "gatsby develop",
-    "build": "gatsby build",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean"
-  },
-  "dependencies": {
-    "@mdx-js/react": "^2.2.1",
-    "gatsby": "^5.4.2",
-    "gatsby-plugin-image": "^3.11.0",
-    "gatsby-plugin-manifest": "^5.11.0",
-    "gatsby-plugin-mdx": "^5.4.0",
-    "gatsby-plugin-preconnect": "^1.4.0",
-    "gatsby-plugin-sharp": "^5.11.0",
-    "gatsby-remark-images": "^7.5.0",
-    "gatsby-remark-prismjs": "^7.11.0",
-    "gatsby-source-filesystem": "^5.11.0",
-    "gatsby-transformer-remark": "^6.11.0",
-    "gatsby-transformer-sharp": "^5.11.0",
-    "prismjs": "^1.29.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-  }
+	"name": "ogoregen",
+	"version": "1.0.0",
+	"private": true,
+	"description": "ogoregen",
+	"author": "flighty",
+	"keywords": ["gatsby"],
+
+	"scripts": {
+		"develop": "gatsby develop",
+		"start": "gatsby develop",
+		"build": "gatsby build",
+		"serve": "gatsby serve",
+		"clean": "gatsby clean"
+	},
+
+	"dependencies": {
+
+		"@mdx-js/react": "^2.2.1",
+		"gatsby": "^5.4.2",
+		"gatsby-plugin-image": "^3.11.0",
+		"gatsby-plugin-manifest": "^5.11.0",
+		"gatsby-plugin-mdx": "^5.4.0",
+		"gatsby-plugin-preconnect": "^1.4.0",
+		"gatsby-plugin-sharp": "^5.11.0",
+		"gatsby-remark-images": "^7.5.0",
+		"gatsby-remark-prismjs": "^7.11.0",
+		"gatsby-source-filesystem": "^5.11.0",
+		"gatsby-transformer-remark": "^6.11.0",
+		"gatsby-transformer-sharp": "^5.11.0",
+		"prismjs": "^1.29.0",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0"
+	}
 }
