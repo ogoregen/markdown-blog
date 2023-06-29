@@ -1,7 +1,7 @@
 
 import React, {useState, useEffect} from "react"
 import {projects} from "../data/projects"
-import {StarIcon} from "../assets/staricon"
+import StarIcon from "../assets/staricon"
 import Metadata from "../components/metadata";
 import Layout from "../components/layout"
 
@@ -55,7 +55,15 @@ const Projects = () => {
 									<p className="fly-margin-none-top">{project.description}</p>
 								</div>
 								<div className="fly-flex">
-									{Object.keys(project.links).map(key => <a href={project.links[key]} target="_blank" className="fly-margin-right">{key}</a>)}
+									{
+										Object.keys(project.links).map(key => {
+										
+											return (
+												
+												<a href={project.links[key]} target="_blank" className="fly-margin-right">{key}</a>
+											);
+										})
+									}
 								</div>
 							</div>
 						);
