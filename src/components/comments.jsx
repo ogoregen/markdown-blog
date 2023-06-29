@@ -14,7 +14,7 @@ const Comments = () => {
 		commentsScript.setAttribute("repo", "ogoregen/blog-comments");
 		commentsScript.setAttribute("issue-term", "pathname");
 		commentsScript.setAttribute("id", "utterances");
-		commentsScript.setAttribute("theme", "github-light");
+		commentsScript.setAttribute("theme", "boxy-light");
 		commentsScript.setAttribute("crossorigin", "anonymous");
 
 		commentsSection.appendChild(commentsScript);

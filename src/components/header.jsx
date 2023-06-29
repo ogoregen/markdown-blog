@@ -24,7 +24,7 @@ const Header = () => {
 						navigationItems.map((item) => (
 
 							<li key={item.label}>
-								<Link to={item.url}	activeClassName="fly-nav-active">{item.label}</Link>
+								<Link to={item.url} activeClassName="fly-nav-active">{item.label}</Link>
 							</li>
 						))
 					}
