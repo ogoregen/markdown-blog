@@ -10,9 +10,11 @@
 :root{
     font-family: 'Inter', sans-serif;
     --primary-color: #63216B;
+    --spacing: 1rem;
 }
 
 @supports(font-variation-settings: normal){
+
     :root{ 
         font-family: 'Inter var', sans-serif;
     }
@@ -296,6 +298,10 @@ ul.fly-nav li a:hover{
     color: var(--primary-color);
 }
 
+.fly-nav-active{
+    color: var(--primary-color) !important;
+}
+
 /* card */
 
 .fly-card{
@@ -323,38 +329,33 @@ code *{
     line-height: 1.25 !important;
 }
 
-.fly-nav-active{
-    color: var(--primary-color) !important;
+.fly-1-2-desktop{
+
+    width: 50%;
 }
 
-.fly-header{
+/* components */
 
+.fly-header{
     display: flex;
     justify-content: space-between;
     z-index: 1;
     position: relative;
 }
 
-.fly-1-2-desktop{
-
-    width: 50%;
+.fly-footer{
+    z-index: 1;
+    position: relative;
 }
 
-@media screen and (max-width: 80rem) {
+@media screen and (max-width: 80rem){
 
     .fly-header{
-
         flex-direction: column;
         align-items: center;
     }
 
     .fly-1-2-desktop{
-
         width: 100%;
     }
-}
-
-.fly-footer{
-    z-index: 1;
-    position: relative;
 }

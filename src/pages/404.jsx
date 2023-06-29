@@ -1,19 +1,19 @@
 
-import * as React from "react";
+import React from "react";
 import Layout from "../components/layout";
 import Metadata from "../components/metadata";
 
-const Home = () => {
+const NotFound = () => {
 
     return (
-	
+
 		<Layout title="Not found.">
 			<p className="fly-text-center">That's a 404.</p>
-		</Layout>	
+		</Layout>
 	);
 };
 
-export default Home;
+export default NotFound;
 
 export const Head = () => (
 

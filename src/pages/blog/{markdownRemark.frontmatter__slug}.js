@@ -6,18 +6,20 @@ import Comments from "../../components/comments"
 import Metadata from "../../components/metadata";
 
 export const query = graphql`
+
     query($id: String){
+
         markdownRemark(id: {eq: $id}){
 
             html
             excerpt
             frontmatter {
+
                 title
                 date(formatString: "MMMM D, YYYY")
             }
-
         }
-    }`
+    }`;
 
 const BlogPost = ({data, children}) => {
 
@@ -34,7 +36,7 @@ const BlogPost = ({data, children}) => {
             <Comments/>
         </Layout>
     )
-}
+};
 
 export default BlogPost;
 
