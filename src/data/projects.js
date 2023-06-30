@@ -4,7 +4,7 @@ export const projects = [
         name: "ogoregen.com",
         date: "2023",
         description: "This website",
-        slug: "ogoregen.com",
+        gitHubRepositoryName: "ogoregen.com",
         links: {
 
            "Source Codes": "https://github.com/ogoregen/ogoregen.com",
@@ -23,7 +23,7 @@ export const projects = [
         name: "Sturdy",
         date: "2021",
         description: "PHP MVC web framework",
-        slug: "sturdy",
+        gitHubRepositoryName: "sturdy",
         links: {
 
            "Source Codes": "https://github.com/ogoregen/sturdy",
@@ -33,7 +33,7 @@ export const projects = [
         name: "Fly Graphics",
         date: "2020",
         description: "C++ Wrapper for OpenGL",
-        slug: "fly-graphics",
+        gitHubRepositoryName: "fly-graphics",
         links: {
 
            "Source Codes": "https://github.com/ogoregen/fly-graphics",
@@ -44,7 +44,7 @@ export const projects = [
         name: "Android OpenGL Basis",
         date: "2020",
         description: "Object-oriented OpenGL boilerplate",
-        slug: "android-opengl-basis",
+        gitHubRepositoryName: "android-opengl-basis",
         links: {
 
            "Source Codes": "https://github.com/ogoregen/android-opengl-basis",

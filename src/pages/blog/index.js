@@ -8,7 +8,7 @@ export const query = graphql`
     query{
         allMarkdownRemark(sort: {frontmatter: { date: DESC }}){
             nodes {
-                frontmatter{
+                frontmatter {
                     title
                     date(formatString: "MMM. D, YYYY")
                     slug

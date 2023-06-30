@@ -28,14 +28,14 @@ const Projects = () => {
 				{
 					projects.map((project) => {
 
-						if(repositories.find((repository) => repository.name === project.slug)){
+						if(repositories.find((repository) => repository.name === project.gitHubRepositoryName)){
 
 							var stars = (
 
 								<div className="fly-text-muted">
-									<a href={`https://github.com/ogoregen/${project.slug}/stargazers`} target="_blank" className="fly-flex fly-flex-middle fly-link-text">
+									<a href={`https://github.com/ogoregen/${project.gitHubRepositoryName}/stargazers`} target="_blank" className="fly-flex fly-flex-middle fly-link-text">
 										<span className="fly-margin-xsmall-right">
-											{Number(repositories.find((repository) => repository.name === project.slug).stargazers_count).toLocaleString()}
+											{Number(repositories.find((repository) => repository.name === project.gitHubRepositoryName).stargazers_count).toLocaleString()}
 										</span>
 										<StarIcon color="#eac54f"/>
 									</a>
