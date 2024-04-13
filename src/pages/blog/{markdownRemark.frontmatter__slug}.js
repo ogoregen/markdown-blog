@@ -2,7 +2,6 @@
 import * as React from "react"
 import {graphql} from "gatsby"
 import Layout from "../../components/layout"
-import Comments from "../../components/comments"
 import Metadata from "../../components/metadata";
 
 export const query = graphql`
