@@ -33,7 +33,6 @@ const BlogPost = ({data, children}) => {
             >
                 {children}
             </article>
-            <Comments/>
         </Layout>
     )
 };
