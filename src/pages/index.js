@@ -1,8 +1,8 @@
 
 import * as React from "react"
 import {Link, graphql} from "gatsby"
-import Layout from "../../components/layout"
-import Metadata from "../../components/metadata";
+import Layout from "../components/layout"
+import Metadata from "../components/metadata";
 
 export const query = graphql`
     query{
@@ -23,7 +23,7 @@ export const query = graphql`
 const Blog = ({data}) => {
 
     return(
-        <Layout title="Blog">
+        <Layout>
             {
                 data.allMarkdownRemark.nodes.map(node => (
                     <div className="fly-flex fly-flex-space-between fly-margin-bottom" key={node.id}>

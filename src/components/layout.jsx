@@ -1,6 +1,5 @@
 
 import React from "react";
-import Header from "./header";
 import Footer from "./footer";
 import "../style/style.css";
 
@@ -16,8 +15,6 @@ const Layout = ({title, subtitle, children}) => {
 		<div className="fly-container" style={{display: 'flex', flexDirection: 'column', justifyContent: 'space-between',  minHeight: '100vh'}}>
 			
 			<div style={{padding: '1rem'}}>
-
-				<Header/>
 
 				<main className="fly-width-2-3 fly-margin-horizontal-auto">
 					<div className="fly-text-center">
