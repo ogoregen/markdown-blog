@@ -28,7 +28,7 @@ const Blog = ({data}) => {
                 data.allMarkdownRemark.nodes.map(node => (
                     <div className="fly-flex fly-flex-space-between fly-margin-bottom" key={node.id}>
                         <div>
-                            <Link to={`/blog/${node.frontmatter.slug}`} className="fly-text-lead">{node.frontmatter.title}</Link>
+                            <Link to={`/${node.frontmatter.slug}`} className="fly-text-lead">{node.frontmatter.title}</Link>
                             <p className="fly-margin-none-top">{node.frontmatter.description}</p>
                         </div>
                         <p className="fly-margin-none-top fly-mobile-only">{node.frontmatter.date}</p>
