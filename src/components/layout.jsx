@@ -15,7 +15,6 @@ const Layout = ({title, subtitle, children}) => {
 		<div className="fly-container" style={{display: 'flex', flexDirection: 'column', justifyContent: 'space-between',  minHeight: '100vh'}}>
 			
 			<div style={{padding: '1rem'}}>
-
 				<main className="fly-width-2-3 fly-margin-horizontal-auto">
 					<div className="fly-text-center">
 						<h1 className="fly-margin-small-bottom">{title}</h1>
