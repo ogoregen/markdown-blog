@@ -6,7 +6,6 @@ const navigationItems = [
 
 	{url: "/", label: "Home"},
 	{url: "/me", label: "About"},
-	{url: "/work", label: "Projects"},
 	{url: "/blog", label: "Blog"},
 ];
 
