@@ -2,7 +2,8 @@
 import * as React from "react"
 import {Link, graphql} from "gatsby"
 import Layout from "../components/layout"
-import Metadata from "../components/metadata";
+import MetaData from "../components/metadata";
+import CONFIG from "../config";
 
 export const query = graphql`
     query{
@@ -18,7 +19,7 @@ export const query = graphql`
             }
         }
     }
-    `
+`;
 
 const Blog = ({data}) => {
 
@@ -42,9 +43,8 @@ const Blog = ({data}) => {
 export default Blog;
 
 export const Head = () => (
-    
-	<Metadata
-		title="flighty's blog"
-		description="Tutorials about computer science and other miscellaneous writing"
+	<MetaData
+		title={CONFIG.title}
+		description={CONFIG.description}
 	/>
 );

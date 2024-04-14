@@ -1,10 +1,9 @@
 
 import React from "react";
 
-const Metadata = ({title, description, children}) => {
+const MetaData = ({title, description, children}) => {
 
 	return(
-
         <>
             <title>{title}</title>
             <meta name="description" content={description}/>                        
@@ -13,4 +12,4 @@ const Metadata = ({title, description, children}) => {
 	);
 };
 
-export default Metadata;
+export default MetaData;

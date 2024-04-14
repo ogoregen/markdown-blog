@@ -1,12 +1,11 @@
 
 import React from "react";
 import Layout from "../components/layout";
-import Metadata from "../components/metadata";
+import MetaData from "../components/metadata";
 
 const NotFound = () => {
 
-    return (
-
+    return(
 		<Layout title="Not found.">
 			<p className="fly-text-center">That's a 404.</p>
 		</Layout>
@@ -16,6 +15,5 @@ const NotFound = () => {
 export default NotFound;
 
 export const Head = () => (
-
-	<Metadata title="not here"/>
+	<MetaData title="not here"/>
 );
